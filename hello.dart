@@ -6,5 +6,12 @@ main() {
   print(total);
 }
 
+//concatenação simples
+main() {
+  var text1 = "juliano ";
+  var text2 = "laurentino";
+  var total = text1 + text2;
+  print(total);
+}
 
 
