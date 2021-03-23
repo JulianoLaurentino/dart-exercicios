@@ -27,3 +27,22 @@ main() {
   }
 }
 
+
+import 'dart:io';
+
+main() {
+  //pergunta a idade da pessoa;
+  //se a idade for maior ou igual a 18;
+  //  ele é maior de idade;
+  //se a idade for menor que 18;
+  //  ele é menor de idade
+
+print("****** Digite a sua Idade: *******")
+  var input = stdin.readLineSync();
+  var idade = int.parse(input);
+  if (idade >= 18) {
+    print("Maior de idade");
+  } else {
+    print("Menor de idade");
+  }
+}
